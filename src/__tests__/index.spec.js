@@ -1,3 +1,6 @@
+/* eslint-env jest */
+/* eslint padded-blocks: "off" */
+
 import ReduxFormUtils from '../'
 import flattenErrors from '../flattenErrors'
 
