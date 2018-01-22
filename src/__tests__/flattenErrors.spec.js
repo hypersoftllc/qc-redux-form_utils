@@ -1,3 +1,6 @@
+/* eslint-env jest */
+/* eslint padded-blocks: "off" */
+
 import flattenErrors from '../flattenErrors'
 
 describe('flattenErrors.js', function () {
@@ -66,19 +69,19 @@ describe('flattenErrors.js', function () {
             line1: 'Required',
             line2: undefined,
             city: 'Required',
-          }
+          },
         },
         others: [
           {
             name: {
-              last: 'Required'
-            }
+              last: 'Required',
+            },
           },
           {
             address: {
-              state: 'Required'
-            }
-          }
+              state: 'Required',
+            },
+          },
         ],
       }
       outErrors = flattenErrors(inErrors)
