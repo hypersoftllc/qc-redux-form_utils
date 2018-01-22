@@ -1,6 +1,6 @@
 {
   "name": "qc-redux-form_utils",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0",
   "description": "A set of utilities for working with redux-form.",
   "keywords": [
     "errors",
